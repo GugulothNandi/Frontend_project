@@ -1,0 +1,70 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #eef1f3;
+}
+
+.app-container {
+  max-width: 400px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  min-height: 100vh;
+  background-color: #ffffff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.create-account-btn,
+.login-btn,
+.signup-btn {
+  background-color: #7b1fa2;
+  border-color: #7b1fa2;
+  border-radius: 8px;
+}
+
+.login-btn.btn-outline-primary {
+  color: #7b1fa2;
+  border-color: #7b1fa2;
+  background-color: transparent;
+}
+.login-btn.btn-outline-primary:hover {
+  color: #fff;
+  background-color: #7b1fa2;
+}
+
+.form-group-float {
+  position: relative;
+}
+
+.form-group-float .form-control {
+  height: 55px;
+  padding-top: 1.5rem;
+  padding-bottom: 0.5rem;
+  transition: all 0.2s;
+  border: 0;
+  border-bottom: 1px solid #ccc;
+  border-radius: 0;
+}
+
+.form-group-float .form-control:focus {
+  border-bottom-color: #7b1fa2;
+  box-shadow: none;
+}
+
+.form-group-float .form-label {
+  position: absolute;
+  top: 50%;
+  left: 0.75rem;
+  transform: translateY(-50%);
+  transition: all 0.2s;
+  pointer-events: none;
+  color: #777;
+  font-size: 1rem;
+}
+
+.form-group-float .form-control:focus + .form-label,
+.form-group-float .form-control:not(:placeholder-shown) + .form-label {
+  top: 0.5rem;
+  font-size: 0.7rem;
+  color: #7b1fa2;
+}

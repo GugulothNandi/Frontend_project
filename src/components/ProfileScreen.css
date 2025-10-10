@@ -1,0 +1,37 @@
+.profile-wrapper {
+  background-color: #f7f8f9;
+  min-height: 100vh;
+}
+
+.profile-header {
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.profile-pic {
+  object-fit: cover;
+  border: 3px solid #f0f0f0;
+}
+
+.profile-bio {
+  background-color: #fff;
+  border-radius: 8px;
+  border: 1px solid #e0e0e0;
+  line-height: 1.6;
+  font-size: 0.9rem;
+}
+
+.edit-icon {
+  top: 0.75rem;
+  right: 0.75rem;
+  color: #7b1fa2;
+  cursor: pointer;
+}
+
+.small-text {
+  font-size: 0.9rem;
+}
